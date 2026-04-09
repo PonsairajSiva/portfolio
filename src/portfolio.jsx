@@ -34,10 +34,15 @@ export default function Portfolio() {
   };
 
   const skills = {
-    languages: ['Python', 'PHP', 'JavaScript', 'Node.js'],
-    frontend: ['React.js', 'Next.js', 'HTML', 'CSS', 'Tailwind', 'Bootstrap'],
-    backend: ['Express.js', 'PHP Laravel', 'MySQL', 'PostgreSQL'],
-    tools: ['GitHub', 'Jira', 'GitHub Actions', 'Arduino']
+    languages: ['Python', 'PHP', 'JavaScript'],
+    runtimes: ['Node.js'],
+    frontend: ['HTML', 'CSS'],
+    backend: ['Express.js', 'PHP'],
+    databases: ['MySQL', 'PostgreSQL'],
+    tools: ['GitHub', 'Jira', 'GitHub Actions', 'Arduino'],
+    frameworks: ['Laravel', 'React.js', 'Next.js', 'Tailwind', 'Bootstrap'],
+    methodologies: ['Agile'],
+    apis: ['REST API']
   };
 
   const projects = [
@@ -360,7 +365,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="border-t border-cyan-500/20 py-8 px-6">
         <div className="max-w-4xl mx-auto text-center text-gray-400">
-          <p>© 2024 Ponsairaj S. All rights reserved. Built with React.</p>
+          <p>© 2026 Ponsairaj S. All rights reserved. Built with React.</p>
         </div>
       </footer>
 
